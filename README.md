@@ -1,4 +1,4 @@
-<h1>E-COMMERCE WEBSIT </h1>
+<h1>E-COMMERCE WEBSITE </h1>
 <br>
     This project was developed by Rohit Kadav(TechSword).
     <br>
