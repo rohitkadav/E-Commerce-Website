@@ -2,8 +2,7 @@
 <br>
     This project was developed by Rohit Kadav(TechSword).
     <br>
-
-    **Hosted at:-**https://rohitkadav.github.io/E-Commerce-Website/
+    **Hosted At:-** https://rohitkadav.github.io/E-Commerce-Website/
 
 <br>
 **Tech Stack** <br>
