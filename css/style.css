@@ -49,9 +49,9 @@ body {
     display: flex;
     align-items: center;
     justify-content:space-between ;
-    padding: 10px 50px;
+    padding: 0px 50px;
     background:#F2F9FF;
-    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    box-shadow: 0 5px 15px rgb(0,0,0,.3);
     z-index: 999;
     position:sticky;
     top: 0;
@@ -83,7 +83,7 @@ body {
 
 }
 .logo{
-    height: 100px;
+    height: 80px;
     width: 300px;
 }
 #navbar li a:hover{
@@ -107,10 +107,10 @@ body {
 
 /* Home page */
 #hero {
-    background-image:url("../images/home.png") ;
+    background-image:url("../images/hero4.png") ;
     height: 90vh;
     width: 100%;
-    background-size: cover;
+    background-size:cover;
     background-position:top 25% right 0 ;
     padding: 0px 80px;
     display:flex ;
@@ -128,9 +128,10 @@ body {
     color:#088178;
 }
 #hero button {
-    background-color: beige;
-    height: 50px;
-    width: 100px;
+    background : url("../images/button.png");
+    background-color: transparent;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
     border-radius: 1.5rem;
     border: none;
     font-size: 1rem;
@@ -141,3 +142,65 @@ body {
 
 }
 
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0,0,0,.03) ;
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px;
+
+
+
+}
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgb(70,62,221,.2);
+
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+   padding:9px 8px 6px 8px ;
+   background-color: pink;
+   line-height: 1;
+   color: #088178;
+
+
+
+
+}
+#feature .fe-box:nth-child(2) h6 {
+    background-color:#cdebbc;
+
+}
+#feature .fe-box:nth-child(3) h6 {
+    background-color:#d1e8f2;
+
+}
+#feature .fe-box:nth-child(4) h6 {
+    background-color:#cdd4f8;
+
+}
+#feature .fe-box:nth-child(5) h6 {
+    background-color:#f6dbf6;
+
+}
+#feature .fe-box:nth-child(6) h6 {
+    background-color:#fff2e5;
+
+}
+
+#feature {
+    display: flex;
+    align-items:center ;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+
+
+}

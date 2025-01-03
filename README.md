@@ -5,9 +5,9 @@
     **Hosted At:-** https://rohitkadav.github.io/E-Commerce-Website/
 
 <br>
-**Tech Stack** <br>
-**Technologies:-** HTML/HTML5, CSS/CSS3, JS. <br>
-**Desiging Tools:-** Canva, Figma.
+<b>Tech Stack:-</b> <br>
+<b>Technologies:-</b> HTML/HTML5, CSS/CSS3, JS. <br>
+<b>Desiging Tools:-</b> Canva, Figma.
 
 
 
