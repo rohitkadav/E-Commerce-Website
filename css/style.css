@@ -272,6 +272,7 @@ body {
 }
 #featuredProd .pro .des h5 {
     padding-top: 7px;
+    padding-bottom: 2px;
     color: #1a1a1a;
     font-size: 15px;
 
@@ -283,4 +284,13 @@ body {
     font-size: 17px;
     font-weight: 700;
     color: #088178;
+}
+
+.pro-cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+
+
 }
