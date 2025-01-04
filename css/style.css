@@ -357,14 +357,16 @@ button.white {
    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 #sm-banner .banner-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    /* text-align: center; */
     background-image:url("../images/banner/b17.jpg") ;
-    min-width:580px;
+    min-width:650px;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -404,4 +406,41 @@ button.white {
   .banner2 {
     background-image: url("../images/banner/b10.jpg") !important;
   }
+#text-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    padding: 0 80px;
 
+}
+
+#text-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image:url("../images/banner/b7.jpg") ;
+    min-width:30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+#text-banner h2{
+    font-weight: 900;
+    font-size: 32px; 
+    color: white;
+}
+#text-banner h3{
+    font-weight: 800;
+    font-size: 15px;  
+    color: #ec544e;
+}
+#text-banner .bb2{
+    background-image: url("../images/banner/b4.jpg") ;
+}
+#text-banner .bb3{
+    background-image: url("../images/banner/b18.jpg");
+}
