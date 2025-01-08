@@ -68,13 +68,17 @@ button.white {
     transition: 0.2s;
 }
 
+#close {
+    display: none;
+}
+
 
 
 /* Header */
 #header {
     display: flex;
     align-items: center;
-    justify-content:space-between ;
+    justify-content:space-between;
     padding: 0px 50px;
     background:#F2F9FF;
     box-shadow: 0 5px 15px rgb(0,0,0,.3);
@@ -109,8 +113,9 @@ button.white {
 
 }
 .logo{
-    height: 80px;
+    height: 70px;
     width: 300px;
+    margin-top: 5px;
 }
 #navbar li a:hover{
     color: #088178;
@@ -129,6 +134,11 @@ button.white {
     left: 20px;
     
 
+}
+
+#mobile {
+    display: none;
+    align-items: center;
 }
 
 /* Home page */
@@ -499,4 +509,120 @@ button.white {
 
     justify-content: space-between;
  
+}
+.col img {
+    height: 50px;
+    
+}
+
+.icon img {
+    height: 20px;
+    padding-right: 4px;
+    cursor: pointer;
+    margin-right:5px ;
+   
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+}
+#footer .foot-logo {
+    margin-bottom: 30px;
+    translate: 0 10px;
+
+}
+#footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+
+}
+#footer p{
+    font-size: 14px;
+    margin: 0 0 8px 0;
+
+}
+#footer a{
+    font-size:16px ;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+
+}
+#footer .follow {
+    margin-top: 20px;
+
+}
+  .pay{
+    margin: 10px 0 15px 0;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+    
+  }
+@media (max-width:799px) {
+    #navbar {
+        display:flex ;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3e6f3;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.6s ease;
+    }
+    #navbar.active{
+        right:0px;
+    }
+    #navbar li {
+        margin-bottom: 25px;
+
+    }
+    #mobile {
+        display: flex;
+        align-items: center;
+        
+    
+    } 
+     #mobile img {
+        height: 24px;
+        padding-left:20px ;
+
+        
+     }
+     #close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 24px;
+
+     }
+
+     #close img {
+        height: 22px;
+     }
+     #lg-bag{
+        display: none;
+     }
+
+
+
 }
